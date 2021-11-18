@@ -14,6 +14,10 @@ namespace DVD_Rent_House.Models
 
         public bool IsSubcribedToNewsLetter { get; set; }
 
+        //Associate MenbershipType with Customer class - Navigation Property
+        public MembershipType MembershipType { get; set; }
 
+        //Adding Foreign Key
+        public byte MembershipTypeId { get; set; }
     }
 }
