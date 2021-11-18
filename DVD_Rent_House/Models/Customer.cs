@@ -12,6 +12,7 @@ namespace DVD_Rent_House.Models
 
         public string Name { get; set; }
 
+        public bool IsSubcribedToNewsLetter { get; set; }
 
 
     }
